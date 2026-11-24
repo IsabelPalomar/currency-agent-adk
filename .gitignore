@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Local configuration (project IDs, settings): never commit
+.env
+
+# Credentials: never commit (ADC lives in ~/.config/gcloud, but just in case)
+*credentials*.json
+service-account*.json
+*.pem
+*.key
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# ADK local session data (created by adk web)
+.adk/
+
+# Backups and OS/editor files
+*.bak
+.DS_Store
+.vscode/
+.idea/
